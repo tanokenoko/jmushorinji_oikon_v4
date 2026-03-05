@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宿舎紹介 - 自治医科大学 少林寺拳法部 追いコン 2026</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">自治医科大学 少林寺拳法部</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">ホーム</a>
+                <a href="kusatsu.html" class="nav-link">草津温泉</a>
+                <a href="karuizawa.html" class="nav-link">軽井沢</a>
+                <a href="lodge.html" class="nav-link">宿舎</a>
+                <a href="car.html" class="nav-link">配車</a>
+                <a href="info.html" class="nav-link">Information</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero" style="height: 60vh;">
+        <div data-image-key="lodge_hero_image" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+            <img src="" alt="北軽井沢山荘" class="card-image" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="hero-content" style="position: relative; z-index: 1;">
+            <h1 data-editable="lodge_hero_title">🏕️ 自治医科大学 北軽井沢山荘</h1>
+            <p class="hero-subtitle" data-editable="lodge_hero_desc">自然に囲まれた快適な宿泊施設</p>
+        </div>
+    </section>
+
+    <!-- メインコンテンツ -->
+    <main>
+        <!-- 基本情報 -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-editable="lodge_info_title">宿舎基本情報</h2>
+                </div>
+                <div class="fade-in">
+                    <div style="max-width: 800px; margin: 0 auto; background-color: var(--light-beige); padding: 2rem; border-radius: 12px;">
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                            <div>
+                                <h3 style="color: var(--primary-green); margin-bottom: 1rem;" data-editable="lodge_name_title">宿舎名</h3>
+                                <p data-editable="lodge_name">自治医科大学 北軽井沢山荘</p>
+                            </div>
+                            <div>
+                                <h3 style="color: var(--primary-green); margin-bottom: 1rem;" data-editable="lodge_checkin_title">チェックイン</h3>
+                                <p data-editable="lodge_checkin">17:00</p>
+                            </div>
+                            <div>
+                                <h3 style="color: var(--primary-green); margin-bottom: 1rem;" data-editable="lodge_checkout_title">チェックアウト</h3>
+                                <p data-editable="lodge_checkout">09:30</p>
+                            </div>
+                            <div>
+                                <h3 style="color: var(--primary-green); margin-bottom: 1rem;" data-editable="lodge_lightsout_title">消灯時間</h3>
+                                <p data-editable="lodge_lightsout">23:00</p>
+                            </div>
+                        </div>
+                        <div style="margin-top: 2rem;">
+                            <h3 style="color: var(--primary-green); margin-bottom: 1rem;" data-editable="lodge_access_title">住所・アクセス</h3>
+                            <p data-editable="lodge_access">
+                                長野県北佐久郡軽井沢町大字長倉xxxx<br>
+                                軽井沢駅から車で約30分
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 施設マップ -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-editable="lodge_map_title">施設マップ</h2>
+                </div>
+                <div data-image-key="lodge_map_image" class="image-container" style="text-align: center;">
+                    <img src="" alt="施設マップ" class="card-image" style="max-width: 800px; margin: 0 auto;">
+                    <p style="text-align: center; color: var(--text-gray); margin-top: 1rem;" data-editable="lodge_map_caption">
+                        施設マップ
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 宿舎備品 -->
+        <section class="section" style="background-color: var(--light-beige);">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-editable="lodge_amenities_title">宿舎備品</h2>
+                </div>
+                <div class="fade-in">
+                    <div class="card-grid">
+                        <div class="card">
+                            <div class="card-content">
+                                <div style="text-align: center; margin-bottom: 1rem;">
+                                    <i class="fas fa-soap" style="font-size: 2rem; color: var(--primary-green);"></i>
+                                </div>
+                                <h3 class="card-title" data-editable="lodge_amenity1_title">シャンプー・ボディソープ</h3>
+                                <p data-editable="lodge_amenity1_desc">各シャワー室に完備</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-content">
+                                <div style="text-align: center; margin-bottom: 1rem;">
+                                    <i class="fas fa-towel" style="font-size: 2rem; color: var(--primary-green);"></i>
+                                </div>
+                                <h3 class="card-title" data-editable="lodge_amenity2_title">タオル</h3>
+                                <p data-editable="lodge_amenity2_desc">バスタオル・フェイスタオル</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-content">
+                                <div style="text-align: center; margin-bottom: 1rem;">
+                                    <i class="fas fa-wind" style="font-size: 2rem; color: var(--primary-green);"></i>
+                                </div>
+                                <h3 class="card-title" data-editable="lodge_amenity3_title">ドライヤー</h3>
+                                <p data-editable="lodge_amenity3_desc">各室に完備</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-content">
+                                <div style="text-align: center; margin-bottom: 1rem;">
+                                    <i class="fas fa-wifi" style="font-size: 2rem; color: var(--primary-green);"></i>
+                                </div>
+                                <h3 class="card-title" data-editable="lodge_amenity4_title">Wi-Fi</h3>
+                                <p data-editable="lodge_amenity4_desc">全館無料接続可能</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-content">
+                                <div style="text-align: center; margin-bottom: 1rem;">
+                                    <i class="fas fa-car" style="font-size: 2rem; color: var(--primary-green);"></i>
+                                </div>
+                                <h3 class="card-title" data-editable="lodge_amenity5_title">駐車場</h3>
+                                <p data-editable="lodge_amenity5_desc">無料駐車場完備</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-content">
+                                <div style="text-align: center; margin-bottom: 1rem;">
+                                    <i class="fas fa-fire" style="font-size: 2rem; color: var(--primary-green);"></i>
+                                </div>
+                                <h3 class="card-title" data-editable="lodge_amenity6_title">BBQ設備</h3>
+                                <p data-editable="lodge_amenity6_desc">炭火BBQセット完備</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-content">
+                                <div style="text-align: center; margin-bottom: 1rem;">
+                                    <i class="fas fa-utensils" style="font-size: 2rem; color: var(--primary-green);"></i>
+                                </div>
+                                <h3 class="card-title" data-editable="lodge_amenity7_title">調理器具</h3>
+                                <p data-editable="lodge_amenity7_desc">キッチン用品一式</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BBQ紹介 -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-editable="lodge_bbq_title">BBQ（夕飯）紹介</h2>
+                </div>
+                <div class="fade-in">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+                        <div data-image-key="lodge_bbq_image">
+                            <img src="" alt="BBQ" class="card-image" style="border-radius: 12px;">
+                        </div>
+                        <div>
+                            <p data-editable="lodge_bbq_desc" style="margin-bottom: 2rem;">
+                                山荘の広い庭園でBBQを楽しみます。新鮮な食材を炭火で焼き、
+                                自然の中でのんびりとした時間を過ごしましょう。
+                            </p>
+                            <h3 style="color: var(--primary-green); margin-bottom: 1rem;" data-editable="lodge_bbq_menu_title">メニュー</h3>
+                            <ul style="list-style: none; padding: 0;">
+                                <li data-editable="lodge_bbq_menu1" style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 0.5rem;"></i> 国産牛サーロイン</li>
+                                <li data-editable="lodge_bbq_menu2" style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 0.5rem;"></i> 地鶏のもも肉</li>
+                                <li data-editable="lodge_bbq_menu3" style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 0.5rem;"></i> 新鮮野菜盛り合わせ</li>
+                                <li data-editable="lodge_bbq_menu4" style="margin-bottom: 0.5rem;"><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 0.5rem;"></i> 地元産ソーセージ</li>
+                                <li data-editable="lodge_bbq_menu5"><i class="fas fa-check" style="color: var(--accent-gold); margin-right: 0.5rem;"></i> 海老と帆立の塩焼き</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 部屋割り -->
+        <section class="section" style="background-color: var(--light-beige);">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-editable="lodge_rooms_title">部屋割り</h2>
+                </div>
+                <div class="fade-in">
+                    <div class="card-grid">
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="lodge_room1_name">1号室</h3>
+                                <div style="margin: 1rem 0;">
+                                    <strong data-editable="lodge_room1_member1">○○○（4年）</strong><br>
+                                    <strong data-editable="lodge_room1_member2">○○○（3年）</strong><br>
+                                    <strong data-editable="lodge_room1_member3">○○○（2年）</strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="lodge_room2_name">2号室</h3>
+                                <div style="margin: 1rem 0;">
+                                    <strong data-editable="lodge_room2_member1">○○○（4年）</strong><br>
+                                    <strong data-editable="lodge_room2_member2">○○○（3年）</strong><br>
+                                    <strong data-editable="lodge_room2_member3">○○○（2年）</strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="lodge_room3_name">3号室</h3>
+                                <div style="margin: 1rem 0;">
+                                    <strong data-editable="lodge_room3_member1">○○○（4年）</strong><br>
+                                    <strong data-editable="lodge_room3_member2">○○○（3年）</strong><br>
+                                    <strong data-editable="lodge_room3_member3">○○○（2年）</strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="lodge_room4_name">4号室</h3>
+                                <div style="margin: 1rem 0;">
+                                    <strong data-editable="lodge_room4_member1">○○○（4年）</strong><br>
+                                    <strong data-editable="lodge_room4_member2">○○○（3年）</strong><br>
+                                    <strong data-editable="lodge_room4_member3">○○○（2年）</strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="lodge_room5_name">5号室</h3>
+                                <div style="margin: 1rem 0;">
+                                    <strong data-editable="lodge_room5_member1">○○○（4年）</strong><br>
+                                    <strong data-editable="lodge_room5_member2">○○○（3年）</strong><br>
+                                    <strong data-editable="lodge_room5_member3">○○○（2年）</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2026 自治医科大学 少林寺拳法部</p>
+            <button class="login-btn"><i class="fas fa-lock"></i> Login</button>
+        </div>
+    </footer>
+
+    <script src="edit.js"></script>
+</body>
+</html>

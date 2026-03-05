@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>軽井沢 - 自治医科大学 少林寺拳法部 追いコン 2026</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">自治医科大学 少林寺拳法部</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">ホーム</a>
+                <a href="kusatsu.html" class="nav-link">草津温泉</a>
+                <a href="karuizawa.html" class="nav-link">軽井沢</a>
+                <a href="lodge.html" class="nav-link">宿舎</a>
+                <a href="car.html" class="nav-link">配車</a>
+                <a href="info.html" class="nav-link">Information</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero" style="height: 60vh;">
+        <div data-image-key="karuizawa_hero_image" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+            <img src="" alt="軽井沢" class="card-image" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="hero-content" style="position: relative; z-index: 1;">
+            <h1 data-editable="karuizawa_hero_title">🌿 軽井沢</h1>
+            <p class="hero-subtitle" data-editable="karuizawa_hero_desc">自然と文化が調和する高原リゾート</p>
+        </div>
+    </section>
+
+    <!-- メインコンテンツ -->
+    <main>
+        <!-- 地図セクション -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-editable="karuizawa_map_title">軽井沢 エリアマップ</h2>
+                </div>
+                <div data-image-key="karuizawa_map_image" class="image-container" style="text-align: center;">
+                    <img src="" alt="軽井沢マップ" class="card-image" style="max-width: 800px; margin: 0 auto;">
+                    <p style="text-align: center; color: var(--text-gray); margin-top: 1rem;" data-editable="karuizawa_map_caption">
+                        軽井沢 エリアマップ
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- エリア別タブ -->
+        <section class="section">
+            <div class="container">
+                <div class="tabs">
+                    <button class="tab active" data-tab="old-karuizawa" data-editable="karuizawa_tab1">旧軽井沢</button>
+                    <button class="tab" data-tab="naka-karuizawa" data-editable="karuizawa_tab2">中軽井沢</button>
+                    <button class="tab" data-tab="shin-karuizawa" data-editable="karuizawa_tab3">新軽井沢（駅周辺）</button>
+                </div>
+
+                <!-- 旧軽井沢 -->
+                <div id="old-karuizawa" class="tab-content active">
+                    <div class="section-header">
+                        <h2 data-editable="karuizawa_old_title">旧軽井沢の名所</h2>
+                    </div>
+                    <div class="card-grid">
+                        <div class="card fade-in">
+                            <div data-image-key="karuizawa_old_1_image">
+                                <img src="" alt="旧軽井沢銀座通り" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="karuizawa_old_spot1_title">旧軽井沢銀座通り</h3>
+                                <p class="card-info" data-editable="karuizawa_old_spot1_info">
+                                    散策無料・お土産・カフェ多数
+                                </p>
+                                <a href="#" class="card-link" data-link-key="karuizawa_old_spot1_link">
+                                    詳細を見る <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card fade-in">
+                            <div data-image-key="karuizawa_old_2_image">
+                                <img src="" alt="軽井沢聖パウロカトリック教会" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="karuizawa_old_spot2_title">軽井沢聖パウロカトリック教会</h3>
+                                <p class="card-info" data-editable="karuizawa_old_spot2_info">
+                                    見学無料・歴史的建造物
+                                </p>
+                                <a href="#" class="card-link" data-link-key="karuizawa_old_spot2_link">
+                                    詳細を見る <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card fade-in">
+                            <div data-image-key="karuizawa_old_3_image">
+                                <img src="" alt="旧軽井沢カフェ・グルメエリア" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="karuizawa_old_spot3_title">旧軽井沢カフェ・グルメエリア</h3>
+                                <p class="card-info" data-editable="karuizawa_old_spot3_info">
+                                    おしゃれカフェ集結
+                                </p>
+                                <a href="#" class="card-link" data-link-key="karuizawa_old_spot3_link">
+                                    詳細を見る <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 中軽井沢 -->
+                <div id="naka-karuizawa" class="tab-content">
+                    <div class="section-header">
+                        <h2 data-editable="karuizawa_naka_title">中軽井沢の名所</h2>
+                    </div>
+                    <div class="card-grid">
+                        <div class="card fade-in">
+                            <div data-image-key="karuizawa_naka_1_image">
+                                <img src="" alt="ハルニレテラス" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="karuizawa_naka_spot1_title">ハルニレテラス（星野エリア）</h3>
+                                <p class="card-info" data-editable="karuizawa_naka_spot1_info">
+                                    入場無料・おしゃれショップ集結
+                                </p>
+                                <a href="#" class="card-link" data-link-key="karuizawa_naka_spot1_link">
+                                    詳細を見る <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card fade-in">
+                            <div data-image-key="karuizawa_naka_2_image">
+                                <img src="" alt="軽井沢高原教会" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="karuizawa_naka_spot2_title">軽井沢高原教会</h3>
+                                <p class="card-info" data-editable="karuizawa_naka_spot2_info">
+                                    見学無料・森の中の教会
+                                </p>
+                                <a href="#" class="card-link" data-link-key="karuizawa_naka_spot2_link">
+                                    詳細を見る <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card fade-in">
+                            <div data-image-key="karuizawa_naka_3_image">
+                                <img src="" alt="白糸の滝" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="karuizawa_naka_spot3_title">白糸の滝</h3>
+                                <p class="card-info" data-editable="karuizawa_naka_spot3_info">
+                                    見学無料・駐車場有料・9:00〜17:00
+                                </p>
+                                <a href="#" class="card-link" data-link-key="karuizawa_naka_spot3_link">
+                                    詳細を見る <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 新軽井沢 -->
+                <div id="shin-karuizawa" class="tab-content">
+                    <div class="section-header">
+                        <h2 data-editable="karuizawa_shin_title">新軽井沢（駅周辺）の名所</h2>
+                    </div>
+                    <div class="card-grid">
+                        <div class="card fade-in">
+                            <div data-image-key="karuizawa_shin_1_image">
+                                <img src="" alt="軽井沢プリンスショッピングプラザ" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="karuizawa_shin_spot1_title">軽井沢プリンスショッピングプラザ</h3>
+                                <p class="card-info" data-editable="karuizawa_shin_spot1_info">
+                                    入場無料・アウトレット
+                                </p>
+                                <a href="#" class="card-link" data-link-key="karuizawa_shin_spot1_link">
+                                    詳細を見る <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card fade-in">
+                            <div data-image-key="karuizawa_shin_2_image">
+                                <img src="" alt="軽井沢駅周辺グルメ" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="karuizawa_shin_spot2_title">軽井沢駅周辺グルメ</h3>
+                                <p class="card-info" data-editable="karuizawa_shin_spot2_info">
+                                    駅ナカ・駅周辺に飲食店多数
+                                </p>
+                                <a href="#" class="card-link" data-link-key="karuizawa_shin_spot2_link">
+                                    詳細を見る <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card fade-in">
+                            <div data-image-key="karuizawa_shin_3_image">
+                                <img src="" alt="矢ヶ崎公園・大賀ホール" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title" data-editable="karuizawa_shin_spot3_title">矢ヶ崎公園・大賀ホール</h3>
+                                <p class="card-info" data-editable="karuizawa_shin_spot3_info">
+                                    散策無料・芝生広場あり
+                                </p>
+                                <a href="#" class="card-link" data-link-key="karuizawa_shin_spot3_link">
+                                    詳細を見る <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 軽井沢情報 -->
+        <section class="section" style="background-color: var(--light-beige);">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-editable="karuizawa_info_title">軽井沢について</h2>
+                </div>
+                <div class="fade-in">
+                    <div style="max-width: 800px; margin: 0 auto;">
+                        <p data-editable="karuizawa_info_text1" style="margin-bottom: 1.5rem;">
+                            軽井沢は、長野県東部にある高原リゾート地で、豊かな自然と洗練された文化が共存する街です。
+                            夏は涼しく、避暑地として人気があり、四季折々の美しい風景が楽しめます。
+                        </p>
+                        <p data-editable="karuizawa_info_text2" style="margin-bottom: 1.5rem;">
+                            旧軽井沢は歴史ある別荘地として、明治時代からの洋風建築や高級別荘が立ち並びます。
+                            中軽井沢は星野エリアとして知られ、おしゃれなショップやレストランが集まっています。
+                            新軽井沢は軽井沢駅周辺で、ショッピングやグルメを楽しめるエリアです。
+                        </p>
+                        <p data-editable="karuizawa_info_text3">
+                            自然豊かな高原の空気を感じながら、それぞれのエリアの魅力を満喫してください。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2026 自治医科大学 少林寺拳法部</p>
+            <button class="login-btn"><i class="fas fa-lock"></i> Login</button>
+        </div>
+    </footer>
+
+    <script src="edit.js"></script>
+</body>
+</html>
