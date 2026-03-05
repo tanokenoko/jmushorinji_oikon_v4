@@ -51,19 +51,23 @@
                             </div>
                             <div style="margin-bottom: 1rem;">
                                 <input type="checkbox" id="item2" style="margin-right: 0.5rem;">
-                                <label for="item2" data-editable="info_item2">洗面用具（歯ブラシ、石鹸等）</label>
+                                <label for="item2" data-editable="info_item2">洗面用具（歯ブラシ、シャンプー等）※気になる方は特に</label>
                             </div>
                             <div style="margin-bottom: 1rem;">
                                 <input type="checkbox" id="item3" style="margin-right: 0.5rem;">
-                                <label for="item3" data-editable="info_item3">タオル（バスタオル、フェイスタオル）</label>
+                                <label for="item3" data-editable="info_item3">タオル（バスタオル、フェイスタオル）※特に温泉入る方！</label>
                             </div>
                             <div style="margin-bottom: 1rem;">
                                 <input type="checkbox" id="item4" style="margin-right: 0.5rem;">
-                                <label for="item4" data-editable="info_item4">保険証</label>
+                                <label for="item4" data-editable="info_item4">保険証・マイナンバーカード</label>
                             </div>
                             <div style="margin-bottom: 1rem;">
                                 <input type="checkbox" id="item5" style="margin-right: 0.5rem;">
                                 <label for="item5" data-editable="info_item5">現金（お土産、飲食代）</label>
+                            </div>
+                            <div style="margin-bottom: 1rem;">
+                                <input type="checkbox" id="item5" style="margin-right: 0.5rem;">
+                                <label for="item5" data-editable="info_item5">ドライヤー</label>
                             </div>
                             <div style="margin-bottom: 1rem;">
                                 <input type="checkbox" id="item6" style="margin-right: 0.5rem;">
@@ -71,11 +75,11 @@
                             </div>
                             <div style="margin-bottom: 1rem;">
                                 <input type="checkbox" id="item7" style="margin-right: 0.5rem;">
-                                <label for="item7" data-editable="info_item7">雨具（折りたたみ傘、レインコート）</label>
+                                <label for="item7" data-editable="info_item7">防寒具 （マジで必須です！！）</label>
                             </div>
                             <div>
                                 <input type="checkbox" id="item8" style="margin-right: 0.5rem;">
-                                <label for="item8" data-editable="info_item8">酔い止め（車酔いする方は）</label>
+                                <label for="item8" data-editable="info_item8">常備薬・酔い止め（車酔いする方は）</label>
                             </div>
                         </div>
                     </div>
@@ -107,56 +111,6 @@
             </div>
         </section>
 
-        <!-- 連絡先 -->
-        <section class="section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 data-editable="info_contacts_title">
-                        <i class="fas fa-phone"></i> 各種連絡先
-                    </h2>
-                </div>
-                <div class="fade-in">
-                    <div class="card-grid" style="max-width: 900px; margin: 0 auto;">
-                        <div class="card">
-                            <div class="card-content" style="text-align: center;">
-                                <i class="fas fa-user-tie" style="font-size: 2.5rem; color: var(--primary-green); margin-bottom: 1rem;"></i>
-                                <h3 class="card-title" data-editable="info_contact1_name">○○○</h3>
-                                <p data-editable="info_contact1_role">主担当・全体統括</p>
-                                <p style="color: var(--text-gray); margin: 1rem 0;">
-                                    <i class="fas fa-phone"></i> 
-                                    <a href="tel:" data-link-key="info_contact1_phone" data-editable="info_contact1_phone">090-1234-5678</a>
-                                </p>
-                            </div>
-                        </div>
-                        
-                        <div class="card">
-                            <div class="card-content" style="text-align: center;">
-                                <i class="fas fa-user-tie" style="font-size: 2.5rem; color: var(--primary-green); margin-bottom: 1rem;"></i>
-                                <h3 class="card-title" data-editable="info_contact2_name">○○○</h3>
-                                <p data-editable="info_contact2_role">副担当・交通係</p>
-                                <p style="color: var(--text-gray); margin: 1rem 0;">
-                                    <i class="fas fa-phone"></i> 
-                                    <a href="tel:" data-link-key="info_contact2_phone" data-editable="info_contact2_phone">090-2345-6789</a>
-                                </p>
-                            </div>
-                        </div>
-                        
-                        <div class="card">
-                            <div class="card-content" style="text-align: center;">
-                                <i class="fas fa-user-tie" style="font-size: 2.5rem; color: var(--primary-green); margin-bottom: 1rem;"></i>
-                                <h3 class="card-title" data-editable="info_contact3_name">○○○</h3>
-                                <p data-editable="info_contact3_role">副担当・宿泊係</p>
-                                <p style="color: var(--text-gray); margin: 1rem 0;">
-                                    <i class="fas fa-phone"></i> 
-                                    <a href="tel:" data-link-key="info_contact3_phone" data-editable="info_contact3_phone">090-3456-7890</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- 緊急連絡先 -->
         <section class="section" style="background-color: var(--light-beige);">
             <div class="container">
@@ -180,7 +134,10 @@
                             <p style="text-align: center; font-size: 1.5rem; font-weight: bold; color: #DC3545; margin-bottom: 1rem;">
                                 <a href="tel:119" style="color: #DC3545;" data-editable="info_emergency_fire">消防・救急：119</a>
                             </p>
-                            <p style="text-align: center; font-size: 1.5rem; font-weight: bold; color: #DC3545;" data-editable="info_emergency_disaster">災害：171</p>
+                            <p style="text-align: center; font-size: 1.5rem; font-weight: bold; color: #DC3545;" data-editable="info_emergency_disaster">災害伝言板ダイヤル：171</p>
+                            </p>
+                            <p style="text-align: center; font-size: 1.5rem; font-weight: bold; color: #DC3545; margin-bottom: 1rem;">
+                                <a href="tel:119" style="color: #DC3545;" data-editable="info_emergency_fire">管理事務所：0279-86-2111</a>
                         </div>
                     </div>
                 </div>
