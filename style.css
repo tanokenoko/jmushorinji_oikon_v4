@@ -374,8 +374,8 @@ a:hover {
 
 /* マップ */
 .map-image {
-    max-width: 2000px;
-    max-height: 1600px;
+    width: 2000px;
+    height: 1600px;
     display: block;
     margin: 0 auto;
 }
